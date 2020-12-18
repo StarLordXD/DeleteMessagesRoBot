@@ -73,13 +73,13 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "[Here](https://t.me/OtherBots/3)"
+REQD_PERMISSIONS = "@OthersBots"
 GIT_REPO_LINK = "@NoiMercy"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
     "I'm a bot that can delete <s>all</s> your channel or supergroup messages. "
     "\n\n"
-    f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
+    f"How To use me: read 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
     f"Contact My Owner 👉 {GIT_REPO_LINK} 👈"
 ))
